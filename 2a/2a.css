@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0%;  
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+header{
+    margin: 0;
+    padding: 0%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+  }
+  
+  li {
+    float: left;
+    padding: 15px;
+    
+  }
+  li a{
+    text-decoration: none;
+  }
+  h3{
+      margin: 0;
+  }
+  .navbar{
+      background-color:  rgb(155, 120, 190);
+      color: rgb(59, 59, 59);
+      
+      padding: 15px;
+      position: sticky;
+      top: 0;
+  }
+  .navbar li a:visited{
+    color: rgb(59, 59, 59);
+
+  }
+  .navbar li input{
+      height: 20px;
+      width: 200px;
+      border: none;
+      border-radius: 3px;
+      margin-left: 700px;
+      padding: 5px;
+  }
+  .navbar li button{
+    height: 30px;
+    width: 60px;
+    border: none;
+    border-radius: 3px;
+    background-color: honeydew;
+    padding: 5px;
+  }
+  .navbar li button:hover{
+      background-color: yellowgreen;
+  }
+
+  .heading1{
+      background-color: rgb(245, 245, 245);
+      padding: 25px;
+      
+      
+  }
+  .heading1 h4,h1{
+    font-weight: 500;
+  }
+
+  .content-container{
+      background-color: rgb(155, 120, 190);
+      height: 1000px;
+      
+  }
+  .content-container input{
+      width: 280px;
+      height: 40px;
+      border-radius: 15px;
+      border: rgb(141, 63, 158);
+      margin: 1%;
+
+  }
+  .heading{
+      font-size: 2rem;
+      font-weight: 500;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      padding: 15px;
+      color: white;
+  }
+  .contact-item{
+      font-size: 1rem;
+      font-weight: 5;
+      
+      padding: 5px;
+
+  }
+
+
+button{
+    width:90px;
+height: 30px;
+background-color: violet;
+border-radius: 6px;
+border:none;
+padding: 2px;
+margin: 15px;}
+button:hover{
+    background-color: yellowgreen;
+}

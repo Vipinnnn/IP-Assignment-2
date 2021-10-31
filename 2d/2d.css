@@ -1,0 +1,11 @@
+.getButton{
+    border: 0;
+    border-radius: 100px;
+    background: rebeccapurple;
+    color: rgb(255, 255, 255);
+    width: 100px;
+    height: 30px;
+}
+.getButton:hover{
+    background-color: yellowgreen;
+}
